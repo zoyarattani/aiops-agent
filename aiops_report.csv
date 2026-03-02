@@ -1,3 +1,2 @@
-PS C:\Users\zoyar\aiops-agent> Get-Content .\aiops_report.csv -TotalCount 2
 t,cpu_pct,mem_pct,latency_ms,error_rate,is_anomaly,anomaly_score
 0,37.44,43.2,98.87,0.0,False,0.2002444632330449
