@@ -1,8 +1,2 @@
-Wrote aiops_report.csv
-
-PS C:\Users\zoyar\aiops-agent> py make_data.py
-Wrote data/metrics.csv
-
-PS C:\Users\zoyar\aiops-agent> Get-Content .\data\metrics.csv -TotalCount 2
 t,cpu_pct,mem_pct,latency_ms,error_rate
 0,37.44,43.2,98.87,0.0
