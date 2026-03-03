@@ -8,7 +8,6 @@ class Decision:
     confidence: str
 
 def decide(cpu_pct: float, mem_pct: float, latency_ms: float, error_rate: float) -> Decision:
-    # Explainable rules (easy to defend in your video)
 
     if error_rate >= 10 and latency_ms >= 200:
         return Decision(
