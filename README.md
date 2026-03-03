@@ -60,3 +60,6 @@ py -m pip install -r requirements.txt
 - Feedback loop: incorporate incident confirmations to tune thresholds or train supervised models
 - Integrate real actions (Kubernetes scaling, service restart, config rollback APIs)
 
+Demo Video
+Video walkthrough of the AIOps agent: https://share.vidyard.com/watch/hA1FSFFZp5uzwMbuaCCzw1
+
