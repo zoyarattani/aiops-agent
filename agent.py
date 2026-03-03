@@ -13,7 +13,6 @@ def main():
     print("Total rows:", len(scored))
     print("Anomalies detected:", len(anomalies), "\n")
 
-    # Show the most anomalous points (lowest score)
     anomalies = anomalies.sort_values("anomaly_score").head(12)
 
     for _, row in anomalies.iterrows():
@@ -31,7 +30,6 @@ def main():
         print(f"  -> action       : {d.action}")
         print(f"  -> confidence   : {d.confidence}")
 
-        # Autonomous behavior: perform action for medium/high confidence cases
         if d.confidence in ("High", "Medium") and d.incident_type != "UNKNOWN":
             perform(d.action)
 
